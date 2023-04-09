@@ -26,7 +26,7 @@ defmodule Equalities do
   end
 
   koan "Unless they actually are different" do
-    assert 3.2 != 3.1
+    assert 3.2 != 1
   end
 
   koan "Some may be looking for bigger things" do
